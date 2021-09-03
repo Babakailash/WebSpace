@@ -1,0 +1,148 @@
+
+
+h1::first-letter{
+    font-size: 14px;
+ }
+
+h1{
+    color: black;
+    font-size: 26px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-style: oblique;
+    
+}
+
+
+h2{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: rebeccapurple;
+}
+
+h3{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: brown;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+h4{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: red;
+    text-align: center;
+}
+
+h5{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+p{
+    font-size: 17px ;
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-align:justify;
+    font-style:inherit;
+}
+
+div {
+    display: grid; 
+    margin: auto; /* to center */
+    
+    width: 300px; height: 300px; 
+    margin-top: 1em;
+  }
+
+body{
+    font-size: 17px;
+    font-family: sans-serif;
+    height: 1042px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+      
+}
+
+footer p{
+    background-color: rgba(176, 155, 76, .5);
+    font-style: italic;
+    font-size: 14px;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+}
+
+header p{
+    font-style: italic;
+}
+
+.unorder{
+    list-style-type: none;
+    
+    background-color: rgba(300, 200, 305,.4);
+}
+
+.article{
+    
+    text-decoration-style: dashed;
+    text-shadow:aquamarine;
+
+}
+
+.nameheader{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-style: normal;
+    text-shadow: 4px 4px 4px #c53232;
+}
+
+a:link{
+    color: blue;
+    text-decoration: none;
+    text-shadow: brown;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: orangered;
+    text-decoration: underline  orangered;
+}
+
+a:active{
+    background-color: black;
+    font-style: italic;
+}
+
+*{
+    margin: 0cm;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;  
+}
+
+img{
+    height: 500px;
+    width: 789px;
+    margin: 0cm;
+}
+
+nav a:link{
+    margin: 8px;
+}
+
+.like{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+}
