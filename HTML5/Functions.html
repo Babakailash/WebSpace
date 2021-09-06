@@ -1,0 +1,79 @@
+<!---If Statement-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // If else condation:-
+        var number1 =5;
+        var number2 =10;
+        var number3=1000;
+        var number4 =500;
+       if(number1==number2){
+             // alert('somthing');
+       }else if(number3<number4){
+        //alert('somthing yes');
+       } else{    
+       }
+    </script>
+
+    <script>
+        // while :-
+        var counter = 0;
+        while(counter<5){
+         //  alert("WHILE LOOP:" +counter);
+           counter++;
+        }
+
+        //do while loop:-
+        var i=0;
+        do{
+         //alert("DO-WHILE LOOP:" +i);
+         i++;
+        } while(i<5);
+        
+        //for:-
+        for(var i=0; i<5; i++){
+           // alert("FOR_LOOP:" +i);
+        }
+
+        // math operations:-
+        //alert(10+10);
+//------------------------------------------------------//
+        //Functions:-   
+    /* function addNumbers(){
+        var num1 = 11;
+        var num2 = 12;
+        var calculation = num1+num2;
+        document.write(calculation);
+    }
+          addNumbers();
+     */
+//--------------------------------------------------------//
+     /* function addNumbers(num1, num2){
+        
+        var calculation = num1+num2;
+        document.write(calculation);
+    }
+    addNumbers(15,20); */
+//-----------------------------------------------------------//
+
+    function addNumbers(){
+        var num1 = 11;
+        var num2 = 12;
+        var calculation = num1+num2;
+        return calculation;
+    }
+    
+    var result = addNumbers();
+     var cal = result + 1000;
+     alert(cal);
+    </script>
+    
+</body>
+</html>

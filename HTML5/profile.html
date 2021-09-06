@@ -1,13 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>
         Millionaire's Profile
     </title>
+    <script src="../JavaScript/service.js"></script>
+
+    <script>
+        alert('Hello ji welcome👏 in 1st Function');
+   </script>
+
 </head>
 <body>
       <h1>Hello Ji, This is SAURABH SHARMA</h1>
       <p>I want My Country become Rich so Check out this Link</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae maiores eaque explicabo ipsa,
+           dolorem repellendus eveniet suscipit qui, dolor animi tempora quia deleniti asperiores in ullam inventore distinctio id reprehenderit.</p>
       <a href="../HTML5/index.html" target="_blank">Back To Home</a>
+      <script>
+           alert('Hi!! This is designed by Kailashnath Vishwakarma')
+      </script>
+        <Script>    
+            document.write("2nd function used ")
+            var name = "Saurabh Sharma";
+            var address = " Ayodhya";
+            var mobile = 1234567890;
+            var number1 = 123456;
+            var number2= 654321;
+
+            function addNumber(){
+                var calculator = number1 + number2;
+                document.getElementById('divContent').innerHTML = calculator;
+            }
+        </script>
+        <script>
+            var NumberList  = new Array('Kailashnath is your Web Developer ' , 9205267464 , " I Like This.");
+             function SeeTheArray(){
+                 document.getElementById('divContent').innerHTML = NumberList;
+             }
+                
+        </Script>
+        <button onclick="SeeTheArray();" id="theButton" class="btn btn-primery">SUBMIT</button>
+            <h1 id="divContent"></h1>
+        <u>
+            <li>
+                Name:  <script>document.write(name);</script>
+            </li>
+            <li>
+             Address: <script> document.write(address);</script>
+            </li>
+            <li>
+              Mobile No. <script>document.write(mobile);</script>
+            </li>
+        </u>
 </body>
 </html>
